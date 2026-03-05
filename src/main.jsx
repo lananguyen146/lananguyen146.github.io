@@ -10,7 +10,7 @@ import PowerBIElectronics from './pages/PowerBIElectronics.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/portfolio">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/new" element={<AppNew />} />
