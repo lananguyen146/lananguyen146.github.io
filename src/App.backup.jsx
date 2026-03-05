@@ -37,47 +37,38 @@ function App() {
           </p>
 
           {/* Skills Section */}
-          <div className="max-w-5xl mx-auto mb-12">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="flex-1 h-px bg-slate-300"></div>
-              <h3 className="text-xs font-medium tracking-widest uppercase text-slate-500 whitespace-nowrap">My Toolkit</h3>
-              <div className="flex-1 h-px bg-slate-300"></div>
-            </div>
-            
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3.5">
+          <div className="max-w-4xl mx-auto mb-12">
+            <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">My Toolkit</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {/* Analytics & Data */}
-              <div className="border border-slate-200 rounded-lg p-6 text-center">
-                <div className="text-xs font-medium tracking-widest uppercase text-slate-500 mb-3">01 — Analytics</div>
-                <div className="text-lg font-semibold text-slate-800 mb-4">Analytics & Data</div>
-                <p className="text-sm text-slate-600">
+              <div className="text-center">
+                <h4 className="font-bold text-slate-800 mb-2">Analytics & Data</h4>
+                <p className="text-slate-600 text-sm leading-relaxed">
                   SQL · Power BI · GA4 · Excel · Data Visualisation
                 </p>
               </div>
 
               {/* Marketing & CRM */}
-              <div className="border border-slate-200 rounded-lg p-6 text-center">
-                <div className="text-xs font-medium tracking-widest uppercase text-slate-500 mb-3">02 — Marketing</div>
-                <div className="text-lg font-semibold text-slate-800 mb-4">Marketing & CRM</div>
-                <p className="text-sm text-slate-600">
+              <div className="text-center">
+                <h4 className="font-bold text-slate-800 mb-2">Marketing & CRM</h4>
+                <p className="text-slate-600 text-sm leading-relaxed">
                   Email Marketing · Automation · Segmentation · A/B Testing
                 </p>
               </div>
 
               {/* Platforms */}
-              <div className="border border-slate-200 rounded-lg p-6 text-center">
-                <div className="text-xs font-medium tracking-widest uppercase text-slate-500 mb-3">03 — Platforms</div>
-                <div className="text-lg font-semibold text-slate-800 mb-4">Tools & Platforms</div>
-                <p className="text-sm text-slate-600">
+              <div className="text-center">
+                <h4 className="font-bold text-slate-800 mb-2">Platforms</h4>
+                <p className="text-slate-600 text-sm leading-relaxed">
                   HubSpot · Salesforce · Pardot · Shopify · Klaviyo
                 </p>
               </div>
 
               {/* Content & Creative */}
-              <div className="border border-slate-200 rounded-lg p-6 text-center">
-                <div className="text-xs font-medium tracking-widest uppercase text-slate-500 mb-3">04 — Content</div>
-                <div className="text-lg font-semibold text-slate-800 mb-4">Content & Creative</div>
-                <p className="text-sm text-slate-600">
-                  Content Strategy · SEO · Email Design · Graphic Design
+              <div className="text-center">
+                <h4 className="font-bold text-slate-800 mb-2">Content & Creative</h4>
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  Content Strategy · SEO · Email Design · Design
                 </p>
               </div>
             </div>

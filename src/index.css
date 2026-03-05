@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #F5F0E8;
+    color: #1A1714;
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      radial-gradient(circle at 15% 15%, rgba(196,98,45,0.07) 0%, transparent 50%),
+      radial-gradient(circle at 85% 80%, rgba(122,140,110,0.08) 0%, transparent 50%),
+      radial-gradient(circle at 50% 50%, rgba(92,122,140,0.04) 0%, transparent 60%);
+    pointer-events: none;
+    z-index: 0;
+  }
+}
