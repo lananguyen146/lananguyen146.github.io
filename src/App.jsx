@@ -39,9 +39,9 @@ function App() {
           {/* Skills Section */}
           <div className="max-w-5xl mx-auto mb-12">
             <div className="flex items-center gap-4 mb-8">
-              <div className="flex-1 h-px bg-gray-300"></div>
-              <h3 className="text-lg font-semibold text-gray-800 whitespace-nowrap">My Toolkit</h3>
-              <div className="flex-1 h-px bg-gray-300"></div>
+              <div className="flex-1 h-px bg-slate-300"></div>
+              <h3 className="text-lg font-semibold text-slate-800 whitespace-nowrap">My Toolkit</h3>
+              <div className="flex-1 h-px bg-slate-300"></div>
             </div>
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3.5">
@@ -128,7 +128,7 @@ function App() {
                 <a 
                   href="/projects/electronic-retailer.pbix" 
                   download
-                  className="inline-flex items-center gap-2 bg-gray-800 text-white px-6 py-2 rounded-lg hover:bg-gray-700 transition-colors"
+                  className="inline-flex items-center gap-2 bg-slate-800 text-white px-6 py-2 rounded-lg hover:bg-slate-700 transition-colors"
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -297,7 +297,7 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-6">
+      <footer className="bg-slate-900 text-white py-6">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <p>© 2026 Lana Nguyen. All rights reserved.</p>
         </div>

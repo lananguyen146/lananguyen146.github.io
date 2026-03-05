@@ -15,22 +15,13 @@ export default {
         ink: '#1A1714',
         terracotta: '#C4622D',
         sage: '#7A8C6E',
-        slate: '#5C7A8C',
+        'custom-slate': '#5C7A8C',
         brown: '#8B7355',
         'warm-gray': '#8C8479',
         'card-bg': '#EEEAE0',
         border: '#D4CFC4',
         'border-light': '#E4DFD4',
       },
-      keyframes: {
-        fadeUp: {
-          'from': { opacity: '0', transform: 'translateY(20px)' },
-          'to': { opacity: '1', transform: 'translateY(0)' }
-        }
-      },
-      animation: {
-        fadeUp: 'fadeUp 0.7s ease forwards'
-      }
     },
   },
   plugins: [],
