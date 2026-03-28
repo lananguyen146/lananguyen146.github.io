@@ -108,6 +108,58 @@ function App() {
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-slate-800 mb-12 text-center">Projects</h2>
           
+          {/* RFM Customer Segmentation Project */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-slate-800 mb-2 text-center">RFM Customer Segmentation & CRM Strategy</h3>
+            <p className="text-slate-600 mb-6 text-center">SQL · Power BI · UCI Online Retail II (2009–2011)</p>
+
+            <div className="bg-white border border-slate-200 shadow-sm p-4 rounded-lg mb-6 relative z-10">
+              <div className="relative w-full mb-4" style={{ paddingBottom: '62.25%' }}>
+                <iframe
+                  title="CRM Project"
+                  src="https://app.powerbi.com/view?r=eyJrIjoiMzEyNGRiMGItYmQ0ZC00OWFmLWExZTYtMzVjYTIwODQ4NWQyIiwidCI6ImI1NzhjYmRlLTk2YTMtNDUyOS05NDdlLTU1NTVjZWVhMDI4NCJ9"
+                  frameBorder="0"
+                  allowFullScreen={true}
+                  className="absolute top-0 left-0 w-full h-full rounded"
+                ></iframe>
+              </div>
+              <div className="text-center mb-4 flex gap-3 justify-center">
+                <a href="/projects/rfm-customer-segmentation.pbix" download className="inline-flex items-center gap-2 bg-slate-800 text-white px-6 py-2 rounded-lg hover:bg-slate-700 transition-colors">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                  Download .pbix
+                </a>
+                <a href="/projects/rfm-customer-segmentation.sql" download className="inline-flex items-center gap-2 bg-slate-800 text-white px-6 py-2 rounded-lg hover:bg-slate-700 transition-colors">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                  Download .sql
+                </a>
+              </div>
+
+              <div className="bg-white p-6 rounded-lg flex flex-col">
+                <h4 className="text-xl font-bold text-slate-800 mb-3">Overview</h4>
+                <div className="mb-4">
+                  <p className="text-slate-600 mb-4">
+                    Used RFM modelling to segment 5,800+ customers from a UK-based online gift-ware retailer. Cleaned 1M+ transactions in SQL, scored customers using NTILE(5), and built a Power BI dashboard to surface actionable CRM strategies per segment.
+                  </p>
+                </div>
+                <div className="mb-4">
+                  <p className="font-semibold text-slate-700 mb-2">🛠️ Skills Demonstrated</p>
+                  <p className="text-slate-600">SQL Server · Power BI · DAX · RFM Analysis · Customer Segmentation · CRM Strategy</p>
+                </div>
+                <div className="mb-4">
+                  <p className="font-semibold text-slate-700 mb-2">📊 Dataset</p>
+                  <p className="text-slate-600">UCI Online Retail II · 1M+ transactions · 2009–2011</p>
+                </div>
+                <div className="mb-4 flex-grow">
+                  <p className="font-semibold text-slate-700 mb-2">💡 Key Insight</p>
+                  <p className="text-slate-600">Champions are just 21% of customers but generate 68% of total revenue ($11.78M of $17.37M) — the clearest argument for a retention-first marketing strategy.</p>
+                </div>
+                <Link to="/projects/rfm-segmentation" className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm w-full text-center">
+                  View Full Project Details →
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* Electronic Retailer Project */}
           <div className="mb-16">
             <h3 className="text-2xl font-bold text-slate-800 mb-2 text-center">Global Electronics Retail Performance Analysis</h3>
