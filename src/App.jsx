@@ -23,17 +23,14 @@ function App() {
       <section className="bg-blue-50 py-20">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center">
-          <p className="text-lg text-slate-500 italic mb-4">
-            Curious about what the data reveals behind every marketing decision
-          </p>
           <h2 className="text-5xl font-bold text-slate-800 mb-4">
-            Marketing · Data · Customer Insights
+            Hi, I'm Lana Nguyen 👋
           </h2>
           <p className="text-xl text-slate-600 mb-6">
-            📍 Sydney, Australia
+            Marketing & Data · Customer Insights · Sydney, Australia
           </p>
           <p className="text-lg text-slate-700 max-w-3xl mx-auto leading-relaxed mb-12">
-            Data-driven marketer with 4+ years of experience across e-commerce, retail, and events. I combine marketing strategy with analytics, using SQL and Power BI to turn customer data into insights that improve engagement, conversion, and revenue.
+            I'm a marketer with 4+ years of experience across e-commerce, retail, and events who fell in love with data along the way. Driven by curiosity, I started teaching myself SQL and Power BI over the past year, and have been applying them directly to my work ever since, finding the insights behind what customers actually do. I'm still learning, constantly picking up new tools and sharpening my analytics mindset, because I believe the best marketing decisions start with the right questions.
           </p>
 
           {/* Skills Section */}
@@ -85,12 +82,10 @@ function App() {
 
           <div className="flex gap-4 justify-center mt-8">
             <a 
-              href="https://www.linkedin.com/in/lana-nguyen-1406" 
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#contact" 
               className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 min-w-[150px] text-center"
             >
-              LinkedIn
+              Contact Me
             </a>
             <a 
               href="#projects" 
@@ -318,27 +313,24 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="bg-white py-16">
+      <section id="contact" className="bg-slate-800 py-16">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h3 className="text-3xl font-bold text-slate-800 mb-4">Get In Touch</h3>
-          <p className="text-slate-600 mb-6">📍 Sydney, New South Wales, Australia</p>
-          <div className="flex gap-4 justify-center flex-wrap">
-            <a 
-              href="mailto:lananguyen146@gmail.com"
-              className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold"
-            >
+          <h3 className="text-3xl font-bold text-white mb-4">Get In Touch</h3>
+          <p className="text-slate-300 mb-8">📍 Sydney, New South Wales, Australia</p>
+          <div className="flex flex-col gap-3 items-center mb-8">
+            <a href="mailto:lananguyen146@gmail.com" className="inline-flex items-center gap-2 text-blue-300 hover:text-blue-200 font-semibold">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
-              Send me an email
+              lananguyen146@gmail.com
             </a>
-            <span className="text-slate-400">|</span>
-            <a 
-              href="https://www.linkedin.com/in/lana-nguyen-1406" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold"
-            >
+            <a href="tel:0403397939" className="inline-flex items-center gap-2 text-blue-300 hover:text-blue-200 font-semibold">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              0403 397 939
+            </a>
+            <a href="https://www.linkedin.com/in/lana-nguyen-1406" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-blue-300 hover:text-blue-200 font-semibold">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
               </svg>
