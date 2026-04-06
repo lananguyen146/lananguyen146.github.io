@@ -1,81 +1,70 @@
-# Lana Nguyen - Portfolio
+# Lana Nguyen - Marketing & Data Portfolio
 
-A modern, interactive portfolio website showcasing marketing analytics and data visualization skills.
+A portfolio website showcasing marketing analytics, SQL, and Power BI projects.
+
+🔗 **Live site:** [lananguyen146.github.io](https://lananguyen146.github.io)
 
 ## Tech Stack
 
-- **React 19** - UI framework
-- **Vite 7** - Build tool and dev server
+- **React 19** + **Vite 7** - UI and build tool
 - **Tailwind CSS v3** - Styling
-- **Plotly.js** - Interactive data visualizations
-- **GitHub Pages** - Hosting (planned)
+- **React Router** - SPA routing
+- **GitHub Pages** - Hosting
+
+## Projects
+
+### 1. RFM Customer Segmentation & CRM Strategy
+- **Tools:** SQL · Power BI
+- **Dataset:** UCI Online Retail II (2009-2011), 1M+ transactions
+- **Summary:** Segmented 5,800+ customers using RFM modelling. Cleaned data in SQL, scored with NTILE(5), and built a Power BI dashboard with actionable CRM strategies per segment.
+- **Key finding:** Champions (21% of customers) generate 68% of total revenue ($11.78M of $17.37M).
+
+### 2. Global Electronics Retail Performance Analysis
+- **Tools:** Power BI · DAX
+- **Dataset:** Transactional sales, product hierarchy, customer demographics (2017-2021)
+- **Summary:** Interactive dashboard analysing revenue drivers, customer behaviour, and channel performance for a global electronics retailer.
+- **Key finding:** $55.76M revenue with 47.6% repeat purchase rate.
+
+### 3. B2B Sales Pipeline Analysis
+- **Tools:** SQL Server
+- **Dataset:** 4 relational tables, ~8,800 opportunities
+- **Summary:** Analysed CRM-style B2B hardware sales data to identify product performance, revenue concentration, and high-value industry segments.
+
+### 4. Advanced SQL Query Techniques
+- **Tools:** SQL Server
+- **Dataset:** 15 relational tables, ~22,000 records
+- **Summary:** Solved data analysis challenges using window functions, CTEs, ranking, pivot transformations, and cohort analysis on a bookstore dataset.
 
 ## Project Structure
 
 ```
-portfolio/
 ├── src/
-│   ├── components/
-│   │   └── Dashboard.jsx       # Interactive analytics dashboard
-│   ├── data/
-│   │   └── sampleData.js       # Sample marketing data
-│   ├── App.jsx                 # Main app component
-│   ├── App.css                 # App styles
-│   ├── index.css               # Tailwind directives
-│   └── main.jsx                # Entry point
-├── public/                     # Static assets
-├── package.json
-├── vite.config.js
-├── tailwind.config.js
-└── postcss.config.js
+│   ├── App.jsx                          # Homepage
+│   ├── main.jsx                         # Routes
+│   ├── pages/
+│   │   ├── RFMSegmentation.jsx          # RFM project detail
+│   │   ├── PowerBIElectronics.jsx       # Electronics project detail
+│   │   ├── SQLB2BHardware.jsx           # B2B SQL project detail
+│   │   └── SQLBookstore.jsx             # Bookstore SQL project detail
+│   └── index.css                        # Global styles
+├── public/
+│   ├── projects/                        # Downloadable .pbix and .sql files
+│   └── 404.html                         # SPA routing fix for GitHub Pages
+└── index.html
 ```
-
-## Features
-
-- **Hero Section** - Professional introduction
-- **About Section** - Experience, education, and skills
-- **Interactive Dashboard** - Marketing analytics with Plotly charts:
-  - Email campaign performance (line chart with dual y-axis)
-  - Channel revenue comparison (bar chart)
-  - Social media engagement (pie chart)
-- **Contact Section** - LinkedIn integration
-- **Responsive Design** - Mobile-friendly layout
 
 ## Development
 
-### Install Dependencies
 ```bash
-npm install
+npm install        # Install dependencies
+npm run dev        # Start dev server (http://localhost:5173)
+npm run build      # Build for production
+npm run deploy     # Build and deploy to GitHub Pages
 ```
-
-### Start Dev Server
-```bash
-npm run dev
-```
-Server runs at http://localhost:5173
-
-### Build for Production
-```bash
-npm run build
-```
-
-### Preview Production Build
-```bash
-npm run preview
-```
-
-## Notes
-
-- Uses Tailwind CSS v3 for stability
-- Plotly charts are fully interactive with zoom, pan, and hover features
-- Sample data demonstrates marketing analytics capabilities
-
-## Deployment (Planned)
-
-Will be deployed to GitHub Pages at: `https://lananguyen146.github.io/portfolio`
 
 ## Contact
 
-**Lana Nguyen**  
-Sydney, Australia  
-[LinkedIn](https://www.linkedin.com/in/lana-nguyen-1406)
+**Lana Nguyen**
+- 📍 Sydney, Australia
+- 📧 lananguyen146@gmail.com
+- 🔗 [LinkedIn](https://www.linkedin.com/in/lana-nguyen-1406)
