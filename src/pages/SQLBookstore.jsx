@@ -213,7 +213,7 @@ GROUP BY sm.method_name`;
       {/* Navigation */}
       <nav className="bg-white shadow-sm sticky top-0 z-10">
         <div className="max-w-6xl mx-auto px-6 py-4">
-          <Link to="/" className="text-blue-600 hover:text-blue-700 font-semibold">
+          <Link to="/" className="text-purple-600 hover:text-purple-700 font-semibold">
             ← Back to Portfolio
           </Link>
         </div>
@@ -436,7 +436,7 @@ FROM TotalSpending;`}</code></pre>
         <div className="text-center">
           <Link 
             to="/" 
-            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+            className="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors"
           >
             ← Back to Portfolio
           </Link>
