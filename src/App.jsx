@@ -4,23 +4,23 @@ import { Link } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-purple-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-violet-50">
       {/* Navigation */}
       <nav className="bg-white shadow-sm">
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <h1 className="text-2xl font-bold text-slate-800">Lana Nguyen</h1>
             <div className="flex gap-6">
-              <a href="#about" className="text-slate-600 hover:text-purple-600">About</a>
-              <a href="#projects" className="text-slate-600 hover:text-purple-600">Projects</a>
-              <a href="#contact" className="text-slate-600 hover:text-purple-600">Contact</a>
+              <a href="#about" className="text-slate-600 hover:text-violet-600">About</a>
+              <a href="#projects" className="text-slate-600 hover:text-violet-600">Projects</a>
+              <a href="#contact" className="text-slate-600 hover:text-violet-600">Contact</a>
             </div>
           </div>
         </div>
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-purple-50 py-20">
+      <section className="bg-violet-50 py-20">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center">
           <h2 className="text-5xl font-bold text-slate-800 mb-4">
@@ -83,13 +83,13 @@ function App() {
           <div className="flex gap-4 justify-center mt-8">
             <a 
               href="#contact" 
-              className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 min-w-[150px] text-center"
+              className="bg-violet-600 text-white px-6 py-3 rounded-lg hover:bg-violet-700 min-w-[150px] text-center"
             >
               Contact Me
             </a>
             <a 
               href="#projects" 
-              className="bg-white text-purple-600 px-6 py-3 rounded-lg border-2 border-purple-600 hover:bg-purple-50 min-w-[150px] text-center"
+              className="bg-white text-violet-600 px-6 py-3 rounded-lg border-2 border-violet-600 hover:bg-violet-50 min-w-[150px] text-center"
             >
               View Projects
             </a>
@@ -148,7 +148,7 @@ function App() {
                   <p className="font-semibold text-slate-700 mb-2">💡 Key Insight</p>
                   <p className="text-slate-600">Champions are just 21% of customers but generate 68% of total revenue ($11.78M of $17.37M) — the clearest argument for a retention-first marketing strategy.</p>
                 </div>
-                <Link to="/projects/rfm-segmentation" className="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition-colors text-sm w-full text-center">
+                <Link to="/projects/rfm-segmentation" className="inline-block bg-violet-600 text-white px-4 py-2 rounded-lg hover:bg-violet-700 transition-colors text-sm w-full text-center">
                   View Full Project Details →
                 </Link>
               </div>
@@ -217,7 +217,7 @@ function App() {
 
                 <Link 
                   to="/projects/power-bi-electronics"
-                  className="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition-colors text-sm w-full text-center"
+                  className="inline-block bg-violet-600 text-white px-4 py-2 rounded-lg hover:bg-violet-700 transition-colors text-sm w-full text-center"
                 >
                   View Full Project Details →
                 </Link>
@@ -263,7 +263,7 @@ function App() {
 
                 <Link 
                   to="/projects/sql-b2b-hardware"
-                  className="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition-colors text-sm w-full text-center"
+                  className="inline-block bg-violet-600 text-white px-4 py-2 rounded-lg hover:bg-violet-700 transition-colors text-sm w-full text-center"
                 >
                   View Full Project →
                 </Link>
@@ -302,7 +302,7 @@ function App() {
 
                 <Link 
                   to="/projects/sql-bookstore"
-                  className="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition-colors text-sm w-full text-center"
+                  className="inline-block bg-violet-600 text-white px-4 py-2 rounded-lg hover:bg-violet-700 transition-colors text-sm w-full text-center"
                 >
                   View Full Project →
                 </Link>
@@ -318,19 +318,19 @@ function App() {
           <h3 className="text-3xl font-bold text-white mb-4">Get In Touch</h3>
           <p className="text-slate-300 mb-8">📍 Sydney, New South Wales, Australia</p>
           <div className="flex flex-col gap-3 items-center mb-8">
-            <a href="mailto:lananguyen146@gmail.com" className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-200 font-semibold">
+            <a href="mailto:lananguyen146@gmail.com" className="inline-flex items-center gap-2 text-violet-300 hover:text-violet-200 font-semibold">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               lananguyen146@gmail.com
             </a>
-            <a href="tel:0403397939" className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-200 font-semibold">
+            <a href="tel:0403397939" className="inline-flex items-center gap-2 text-violet-300 hover:text-violet-200 font-semibold">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
               0403 397 939
             </a>
-            <a href="https://www.linkedin.com/in/lana-nguyen-1406" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-200 font-semibold">
+            <a href="https://www.linkedin.com/in/lana-nguyen-1406" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-violet-300 hover:text-violet-200 font-semibold">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
               </svg>

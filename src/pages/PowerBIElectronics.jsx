@@ -11,7 +11,7 @@ function PowerBIElectronics() {
       {/* Navigation */}
       <nav className="bg-white shadow-sm sticky top-0 z-10">
         <div className="max-w-6xl mx-auto px-6 py-4">
-          <Link to="/" className="text-purple-600 hover:text-purple-700 font-semibold">
+          <Link to="/" className="text-violet-600 hover:text-violet-700 font-semibold">
             ← Back to Portfolio
           </Link>
         </div>
@@ -157,7 +157,7 @@ function PowerBIElectronics() {
           <div className="bg-white p-6 rounded-lg shadow-sm">
             <h2 className="text-2xl font-bold text-slate-800 mb-3">🗂️ Data Source</h2>
             <p className="text-slate-600 mb-4">
-              Synthetic dataset sourced from <a href="https://mavenanalytics.io/data-playground/global-electronics-retailer" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-700 underline">Maven Analytics</a>. Includes transactional sales, product hierarchy, customer demographics, and store-level data (2017–2021).
+              Synthetic dataset sourced from <a href="https://mavenanalytics.io/data-playground/global-electronics-retailer" target="_blank" rel="noopener noreferrer" className="text-violet-600 hover:text-violet-700 underline">Maven Analytics</a>. Includes transactional sales, product hierarchy, customer demographics, and store-level data (2017–2021).
             </p>
             <h3 className="text-xl font-bold text-slate-800 mb-2">⚠️ Notes & Limitations</h3>
             <ul className="text-slate-600 space-y-1">
@@ -172,7 +172,7 @@ function PowerBIElectronics() {
         <div className="text-center">
           <Link 
             to="/" 
-            className="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors"
+            className="inline-block bg-violet-600 text-white px-6 py-3 rounded-lg hover:bg-violet-700 transition-colors"
           >
             ← Back to Portfolio
           </Link>

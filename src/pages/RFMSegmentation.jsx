@@ -9,7 +9,7 @@ function RFMSegmentation() {
       {/* Navigation */}
       <nav className="bg-white shadow-sm sticky top-0 z-10">
         <div className="max-w-6xl mx-auto px-6 py-4">
-          <Link to="/" className="text-purple-600 hover:text-purple-700 font-semibold">
+          <Link to="/" className="text-violet-600 hover:text-violet-700 font-semibold">
             ← Back to Portfolio
           </Link>
         </div>
@@ -19,8 +19,8 @@ function RFMSegmentation() {
         {/* Header */}
         <div className="mb-8">
           <div className="flex gap-2 mb-4">
-            <span className="bg-purple-100 text-purple-700 text-xs font-medium px-3 py-1 rounded-full">SQL</span>
-            <span className="bg-purple-100 text-purple-700 text-xs font-medium px-3 py-1 rounded-full">Power BI</span>
+            <span className="bg-violet-100 text-violet-700 text-xs font-medium px-3 py-1 rounded-full">SQL</span>
+            <span className="bg-violet-100 text-violet-700 text-xs font-medium px-3 py-1 rounded-full">Power BI</span>
           </div>
           <h1 className="text-4xl font-bold text-slate-800 mb-2">RFM Customer Segmentation & CRM Strategy</h1>
           <p className="text-xl text-slate-600">UCI Online Retail II (2009-2011) - UK-based online gift-ware retail</p>
@@ -217,7 +217,7 @@ function RFMSegmentation() {
           <div className="bg-white p-6 rounded-lg shadow-sm">
             <h2 className="text-2xl font-bold text-slate-800 mb-3">🗂️ Data Source</h2>
             <p className="text-slate-600 mb-4">
-              UCI Online Retail II dataset from <a href="https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-700 underline">Kaggle</a>. 1M+ transactions from a UK-based online gift-ware retailer (2009-2011).
+              UCI Online Retail II dataset from <a href="https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci" target="_blank" rel="noopener noreferrer" className="text-violet-600 hover:text-violet-700 underline">Kaggle</a>. 1M+ transactions from a UK-based online gift-ware retailer (2009-2011).
             </p>
             <h3 className="text-xl font-bold text-slate-800 mb-2">⚠️ Note</h3>
             <p className="text-slate-600">
@@ -228,7 +228,7 @@ function RFMSegmentation() {
 
         {/* Back */}
         <div className="text-center">
-          <Link to="/" className="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors">
+          <Link to="/" className="inline-block bg-violet-600 text-white px-6 py-3 rounded-lg hover:bg-violet-700 transition-colors">
             ← Back to Portfolio
           </Link>
         </div>

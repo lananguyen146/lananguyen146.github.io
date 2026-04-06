@@ -149,7 +149,7 @@ ORDER BY revenue DESC`;
       {/* Navigation */}
       <nav className="bg-white shadow-sm sticky top-0 z-10">
         <div className="max-w-6xl mx-auto px-6 py-4">
-          <Link to="/" className="text-purple-600 hover:text-purple-700 font-semibold">
+          <Link to="/" className="text-violet-600 hover:text-violet-700 font-semibold">
             ← Back to Portfolio
           </Link>
         </div>
@@ -234,7 +234,7 @@ GROUP BY p.product;`}</code></pre>
           <div className="bg-white p-6 rounded-lg shadow-sm">
             <h2 className="text-2xl font-bold text-slate-800 mb-3">🗂 Data Source</h2>
             <p className="text-slate-600 mb-3">
-              Fictitious B2B sales pipeline dataset (CRM-style structure) from <a href="https://www.kaggle.com/datasets/innocentmfa/crm-sales-opportunities/data?select=products.csv" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:text-purple-700 underline">Kaggle</a>.
+              Fictitious B2B sales pipeline dataset (CRM-style structure) from <a href="https://www.kaggle.com/datasets/innocentmfa/crm-sales-opportunities/data?select=products.csv" target="_blank" rel="noopener noreferrer" className="text-violet-600 hover:text-violet-700 underline">Kaggle</a>.
             </p>
             <p className="text-slate-600 mb-2">4 relational tables:</p>
             <ul className="text-slate-600 ml-4 space-y-1">
@@ -286,7 +286,7 @@ GROUP BY p.product;`}</code></pre>
         <div className="text-center">
           <Link 
             to="/" 
-            className="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors"
+            className="inline-block bg-violet-600 text-white px-6 py-3 rounded-lg hover:bg-violet-700 transition-colors"
           >
             ← Back to Portfolio
           </Link>
